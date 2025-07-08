@@ -7,19 +7,19 @@
       "logoText": "Unit",
       "menuItems": [
         {
-          "label": "Features",
+          "label": "Solução",
           "href": "#features"
         },
         {
-          "label": "Case Studies",
+          "label": "Como funciona",
           "href": "#case-studies"
         },
         {
-          "label": "Pricing",
+          "label": "Benefícios ",
           "href": "#pricing"
         },
         {
-          "label": "Applications",
+          "label": "FAQ",
           "href": "#applications"
         }
       ],
