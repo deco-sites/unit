@@ -81,6 +81,31 @@
             "size": "medium"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/FAQ.tsx",
+        "title": "Frequently asked questions",
+        "ctaText": "Talk to sales",
+        "ctaHref": "#contact",
+        "faqItems": [
+          {
+            "question": "How much time will this save my team?",
+            "answer": "Our AI agents can save your team 20+ hours per week by automating manual tasks like lead enrichment, CRM updates, and prospect research. Most teams see immediate time savings from day one."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "Neuros is an AI-powered business analytics platform designed to provide real-time insights, predictive analytics, and seamless integrations with various tools. Unlike traditional analytics platforms, Neuros harnesses the power of artificial intelligence to offer more accurate forecasts, customizable dashboards, and a user-friendly interface tailored for businesses of all sizes."
+          },
+          {
+            "question": "Can it handle my entire product catalog?",
+            "answer": "Yes, our platform is designed to scale with businesses of all sizes. Whether you have 100 or 100,000 products, our AI agents can handle your entire catalog and adapt to your specific business needs."
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx",
+        "logoText": "Unit",
+        "copyrightText": "© 2025 Seals. Todos os direitos reservados"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"

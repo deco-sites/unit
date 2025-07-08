@@ -6,19 +6,23 @@ import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Agents.tsx";
 import * as $$$$$$1 from "./sections/Benefits.tsx";
-import * as $$$$$$2 from "./sections/Header.tsx";
-import * as $$$$$$3 from "./sections/Hero.tsx";
-import * as $$$$$$4 from "./sections/HowItWorks.tsx";
-import * as $$$$$$5 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/FAQ.tsx";
+import * as $$$$$$3 from "./sections/Footer.tsx";
+import * as $$$$$$4 from "./sections/Header.tsx";
+import * as $$$$$$5 from "./sections/Hero.tsx";
+import * as $$$$$$6 from "./sections/HowItWorks.tsx";
+import * as $$$$$$7 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Agents.tsx": $$$$$$0,
     "site/sections/Benefits.tsx": $$$$$$1,
-    "site/sections/Header.tsx": $$$$$$2,
-    "site/sections/Hero.tsx": $$$$$$3,
-    "site/sections/HowItWorks.tsx": $$$$$$4,
-    "site/sections/Theme/Theme.tsx": $$$$$$5,
+    "site/sections/FAQ.tsx": $$$$$$2,
+    "site/sections/Footer.tsx": $$$$$$3,
+    "site/sections/Header.tsx": $$$$$$4,
+    "site/sections/Hero.tsx": $$$$$$5,
+    "site/sections/HowItWorks.tsx": $$$$$$6,
+    "site/sections/Theme/Theme.tsx": $$$$$$7,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
