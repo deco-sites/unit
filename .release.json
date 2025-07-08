@@ -48,6 +48,39 @@
         "title": "Você define a missão. Os agents executam com precisão.",
         "ctaText": "Iniciar Primeira Missão",
         "ctaHref": "#start"
+      },
+      {
+        "__resolveType": "site/sections/Benefits.tsx",
+        "badgeText": "Benefícios",
+        "title": "Seus concorrentes têm ferramentas. Você terá um esquadrão",
+        "ctaText": "Começar agora",
+        "ctaHref": "#start",
+        "benefits": [
+          {
+            "iconUrl": "https://via.placeholder.com/50x50/16A34A/FFFFFF?text=⚡",
+            "title": "Salve +20 horas semanalmente",
+            "description": "Elimine tarefas manuais, do enriquecimento de leads à atualização do CRM.",
+            "size": "large"
+          },
+          {
+            "iconUrl": "https://via.placeholder.com/50x50/16A34A/FFFFFF?text=📊",
+            "title": "Convert with Data-Driven Content",
+            "description": "Turn browsing into buying with AI content that addresses customer needs based on real-time market insights.",
+            "size": "medium"
+          },
+          {
+            "iconUrl": "https://via.placeholder.com/50x50/16A34A/FFFFFF?text=🔧",
+            "title": "Up and Running Today",
+            "description": "Install in under 15 minutes with our seamless integration for all major e-commerce platforms—zero technical headaches.",
+            "size": "medium"
+          },
+          {
+            "iconUrl": "https://via.placeholder.com/50x50/16A34A/FFFFFF?text=🎯",
+            "title": "Always Improving",
+            "description": "Our AI continuously refines your content based on performance data. Most clients see results within the first week.",
+            "size": "medium"
+          }
+        ]
       }
     ],
     "__resolveType": "website/pages/Page.tsx"

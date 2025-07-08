@@ -51,7 +51,7 @@
           "image": "https://assets.decocache.com/unit/3d040230-af80-4f8c-9312-38464e8ad8b8/como-1.svg",
           "number": "1",
           "title": "Lance a missão",
-          "description": "Defina o objetivo: “Encontrar CFOs em fintechs de alto crescimento”. O Seals.ai ativa automaticamente os agentes certos para iniciar a operação."
+          "description": "Defina o objetivo: 'Encontrar CFOs em fintechs de alto crescimento'. O Seals.ai ativa automaticamente os agentes certos para iniciar a operação."
         },
         {
           "number": "2",
@@ -66,6 +66,40 @@
           "image": "https://assets.decocache.com/unit/7aaa5b7d-8ce7-45f1-8a59-f6aaf3f1605d/como-3.svg"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Benefits.tsx",
+      "badgeText": "Benefícios",
+      "title": "Seus concorrentes têm ferramentas. Você terá um esquadrão",
+      "ctaText": "Começar agora",
+      "ctaHref": "#start",
+      "benefits": [
+        {
+          "iconUrl": "https://assets.decocache.com/unit/3fa44adf-9fa8-4353-88ba-7d3ed085c04a/Icon.svg",
+          "title": "Salve +20 horas semanalmente",
+          "description": "Elimine tarefas manuais, do enriquecimento de leads à atualização do CRM.",
+          "size": "large"
+        },
+        {
+          "iconUrl": "https://assets.decocache.com/unit/6691c1e3-a024-49c8-b53b-ec5cd1c07496/Icondash.svg",
+          "title": "Convert with Data-Driven Content",
+          "description": "Turn browsing into buying with AI content that addresses customer needs based on real-time market insights.",
+          "size": "medium"
+        },
+        {
+          "iconUrl": "https://assets.decocache.com/unit/db55a2a0-717c-48f6-8a5b-b28827a7986a/Icontomada.svg",
+          "title": "Up and Running Today",
+          "description": "Install in under 15 minutes with our seamless integration for all major e-commerce platforms—zero technical headaches.",
+          "size": "medium"
+        },
+        {
+          "iconUrl": "https://assets.decocache.com/unit/e1c04db7-c3d5-4a51-95d4-b0199199ddf4/Icongps.svg",
+          "title": "Always Improving",
+          "description": "Our AI continuously refines your content based on performance data. Most clients see results within the first week.",
+          "size": "medium"
+        }
+      ],
+      "backgroundImage": "https://assets.decocache.com/unit/0df48f11-a3c6-446b-9a51-b242226c1e4d/1.svg"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
