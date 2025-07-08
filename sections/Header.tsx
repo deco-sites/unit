@@ -5,7 +5,7 @@ export interface Props {
    * @default Vanguard
    */
   logoText?: string;
-  
+
   /**
    * @title Menu Items
    * @description Items do menu de navegação
@@ -14,14 +14,14 @@ export interface Props {
     label: string;
     href: string;
   }>;
-  
+
   /**
    * @title CTA Button Text
    * @description Texto do botão de call-to-action
    * @default Start your free trial
    */
   ctaText?: string;
-  
+
   /**
    * @title CTA Button Link
    * @description Link do botão de call-to-action
@@ -39,7 +39,7 @@ export default function Header({
     { label: "Applications", href: "#applications" },
   ],
   ctaText = "Start your free trial",
-  ctaHref = "#"
+  ctaHref = "#",
 }: Props) {
   return (
     <header className="w-full bg-[#FAFAFA] px-4 py-6 lg:px-20 lg:py-12">
@@ -49,24 +49,25 @@ export default function Header({
           <div className="flex items-center gap-4 lg:gap-10 pl-3 lg:pl-6">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div 
+              <div
                 className="w-5 h-5 lg:w-6 lg:h-6 rounded-[5px]"
                 style={{
-                  background: "radial-gradient(ellipse at -10.83% -13.33%, #AFFF81 0%, #1AEC41 56.68%, #30844E 91.67%)"
+                  background:
+                    "radial-gradient(ellipse at -10.83% -13.33%, #AFFF81 0%, #1AEC41 56.68%, #30844E 91.67%)",
                 }}
               />
-              <span 
+              <span
                 className="font-medium text-center text-sm lg:text-base"
                 style={{
                   fontFamily: "Inter",
                   lineHeight: "1em",
-                  color: "#166534"
+                  color: "#166534",
                 }}
               >
                 {logoText}
               </span>
             </div>
-            
+
             {/* Menu - Hidden on mobile */}
             <nav className="hidden lg:flex items-center gap-8">
               {menuItems.map((item, index) => (
@@ -78,7 +79,7 @@ export default function Header({
                     fontFamily: "Geist",
                     fontSize: "14px",
                     lineHeight: "1.4285714285714286em",
-                    color: "#171717"
+                    color: "#171717",
                   }}
                 >
                   {item.label}
@@ -86,7 +87,7 @@ export default function Header({
               ))}
             </nav>
           </div>
-          
+
           {/* Right Side - CTA Button */}
           <div className="flex items-center justify-end gap-2">
             <a
@@ -97,7 +98,7 @@ export default function Header({
                 color: "#22C55E",
                 fontFamily: "Geist",
                 fontWeight: "500",
-                lineHeight: "1.4285714285714286em"
+                lineHeight: "1.4285714285714286em",
               }}
             >
               {ctaText}
@@ -107,4 +108,4 @@ export default function Header({
       </div>
     </header>
   );
-} 
+}
