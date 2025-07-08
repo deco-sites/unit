@@ -1,42 +1,54 @@
 {
-  "decohub": { "__resolveType": "deco-sites/start/apps/decohub.ts" },
-  "admin-app": {
-    "resolvables": { "__resolveType": "deco-sites/admin/loaders/state.ts" },
-    "__resolveType": "decohub/apps/admin.ts"
-  },
-  "everyone": { "routes": [], "__resolveType": "$live/flags/everyone.ts" },
   "Home - Start": {
     "seo": {
       "type": "website",
       "image": "https://www.deco.cx/decocx-meta-en.png",
-      "title": "Start by deco.cx",
-      "description": "This is a site template for deco.cx",
-      "titleTemplate": "%s | Start by deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
+      "title": "Vanguard - AI Sales Squad",
+      "description": "Comande um time de AI Agents especialistas em vendas outbound",
+      "titleTemplate": "%s | Vanguard",
+      "descriptionTemplate": "%s | Vanguard AI Sales"
     },
     "global": [],
     "routes": [{ "__resolveType": "website/loaders/pages.ts" }],
-    "__resolveType": "deco-sites/start/apps/site.ts"
+    "__resolveType": "site/apps/site.ts"
   },
-  "pages-home-start-5cae41e3d348": {
-    "name": "Home - Start",
+  "pages-Home": {
+    "name": "Home",
     "path": "/",
     "sections": [
       {
-        "__resolveType": "deco-sites/start/sections/Hero.tsx",
-        "title": "The Mauri Hero!"
+        "__resolveType": "site/sections/Header.tsx",
+        "logoText": "Vanguard",
+        "menuItems": [
+          { "label": "Features", "href": "#features" },
+          { "label": "Case Studies", "href": "#case-studies" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Applications", "href": "#applications" }
+        ],
+        "ctaText": "Start your free trial",
+        "ctaHref": "#trial"
       },
       {
-        "type": "website",
-        "image": "https://www.deco.cx/decocx-meta-en.png",
-        "title": "Start by deco.cx",
-        "description": "This is a site template for deco.cx",
-        "__resolveType": "website/sections/Seo/Seo.tsx",
-        "titleTemplate": "%s | Start by deco.cx"
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "Mais um software de vendas?\nNão. É o seu esquadrão de elite.",
+        "description": "Comande um time de AI Agents especialistas em cada etapa do processo de vendas outbound, todos com a mesma missão: qualificar o seu pipeline e transformar seus resultados.",
+        "primaryButtonText": "Comece Agora",
+        "primaryButtonHref": "#start",
+        "secondaryButtonText": "Conheça seu Esquadrão",
+        "secondaryButtonHref": "#squad",
+        "trialInfoText": "💳 No credit card • 🔄 Cancel anytime • ✨ 14-day free trial"
       },
-      { "__resolveType": "deco-sites/start/sections/ParagraphList.tsx" },
-      { "__resolveType": "deco-sites/start/sections/SimpleTextList.tsx" },
-      { "__resolveType": "deco-sites/start/sections/Footer.tsx" }
+      {
+        "__resolveType": "site/sections/Agents.tsx",
+        "title": "Conheça o seu esquadrão"
+      },
+      {
+        "__resolveType": "site/sections/HowItWorks.tsx",
+        "badgeText": "Como funciona",
+        "title": "Você define a missão. Os agents executam com precisão.",
+        "ctaText": "Iniciar Primeira Missão",
+        "ctaHref": "#start"
+      }
     ],
     "__resolveType": "website/pages/Page.tsx"
   }

@@ -1,0 +1,72 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logoText": "Vanguard",
+      "menuItems": [
+        {
+          "label": "Features",
+          "href": "#features"
+        },
+        {
+          "label": "Case Studies",
+          "href": "#case-studies"
+        },
+        {
+          "label": "Pricing",
+          "href": "#pricing"
+        },
+        {
+          "label": "Applications",
+          "href": "#applications"
+        }
+      ],
+      "ctaText": "Start your free trial",
+      "ctaHref": "#trial"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "Mais um software de vendas?\nNão. É o seu esquadrão de elite.",
+      "description": "Comande um time de AI Agents especialistas em cada etapa do processo de vendas outbound, todos com a mesma missão: qualificar o seu pipeline e transformar seus resultados.",
+      "primaryButtonText": "Comece Agora",
+      "primaryButtonHref": "#start",
+      "secondaryButtonText": "Conheça seu Esquadrão",
+      "secondaryButtonHref": "#squad",
+      "trialInfoText": "💳 No credit card • 🔄 Cancel anytime • ✨ 14-day free trial"
+    },
+    {
+      "__resolveType": "site/sections/Agents.tsx",
+      "title": "Conheça o seu esquadrão"
+    },
+    {
+      "__resolveType": "site/sections/HowItWorks.tsx",
+      "badgeText": "Como funciona",
+      "title": "Você define a missão. Os agents executam com precisão.",
+      "ctaText": "Iniciar Primeira Missão",
+      "ctaHref": "#start",
+      "steps": [
+        {
+          "image": "https://assets.decocache.com/unit/3d040230-af80-4f8c-9312-38464e8ad8b8/como-1.svg",
+          "number": "1",
+          "title": "Lance a missão",
+          "description": "Defina o objetivo: “Encontrar CFOs em fintechs de alto crescimento”. O Seals.ai ativa automaticamente os agentes certos para iniciar a operação."
+        },
+        {
+          "number": "2",
+          "title": "Comande os agentes",
+          "description": "Cada agent executa sua parte com precisão — encontrar leads, enriquecer dados, escrever mensagens, marcar demos. Você decide quando ativar cada um.",
+          "image": "https://assets.decocache.com/unit/d3ea1746-8a7a-40fd-a546-e416e4a35f9a/como-2.svg"
+        },
+        {
+          "number": "3",
+          "title": "Acompanhe, aprenda, escale",
+          "description": "Monitore o avanço da missão em tempo real. Analise os resultados, refine a estratégia e escale sua operação.",
+          "image": "https://assets.decocache.com/unit/7aaa5b7d-8ce7-45f1-8a59-f6aaf3f1605d/como-3.svg"
+        }
+      ]
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
