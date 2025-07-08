@@ -1,3 +1,5 @@
+import HeroButtons from "../islands/HeroButtons.tsx";
+
 export interface Props {
   /**
    * @title Hero Description
@@ -12,13 +14,6 @@ export interface Props {
    * @default Comece Agora
    */
   primaryButtonText?: string;
-
-  /**
-   * @title Primary Button Link
-   * @description Link do botão primário
-   * @default #
-   */
-  primaryButtonHref?: string;
 
   /**
    * @title Secondary Button Text
@@ -46,7 +41,6 @@ export default function Hero({
   description =
     "Comande um time de AI Agents especialistas em cada etapa do processo de vendas outbound, todos com a mesma missão: qualificar o seu pipeline e transformar seus resultados.",
   primaryButtonText = "Comece Agora",
-  primaryButtonHref = "#start",
   secondaryButtonText = "Conheça seu Esquadrão",
   secondaryButtonHref = "#squad",
   trialInfoText =
@@ -149,44 +143,12 @@ export default function Hero({
 
           {/* CTA Section */}
           <div className="flex flex-col items-center gap-4 lg:gap-6">
-            {/* Buttons Row */}
-            <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 w-full sm:w-auto">
-              {/* Primary Button - Green */}
-              <a
-                href={primaryButtonHref}
-                className="flex items-center justify-center gap-2 px-6 lg:px-8 py-3 lg:py-2 rounded-full transition-all hover:opacity-90 text-sm lg:text-base min-w-[200px] lg:min-w-auto"
-                style={{
-                  height: "44px",
-                  background:
-                    "radial-gradient(ellipse at 50% 50%, #22C55E 0%, #15803D 100%)",
-                  border: "2px solid #FAFAFA",
-                  boxShadow: "0px 0px 0px 2px rgba(34, 197, 94, 1)",
-                  fontFamily: "Geist",
-                  fontWeight: "500",
-                  lineHeight: "1em",
-                  color: "#FAFAFA",
-                }}
-              >
-                {primaryButtonText}
-              </a>
-
-              {/* Secondary Button - Green Outline */}
-              <a
-                href={secondaryButtonHref}
-                className="flex items-center justify-center gap-2 px-6 lg:px-8 py-3 lg:py-2 rounded-full transition-all hover:opacity-90 text-sm lg:text-base min-w-[200px] lg:min-w-auto bg-transparent"
-                style={{
-                  height: "44px",
-                  border: "2px solid #22C55E",
-                  boxShadow: "0px 0px 0px 2px rgba(34, 197, 94, 0.1)",
-                  fontFamily: "Geist",
-                  fontWeight: "500",
-                  lineHeight: "1em",
-                  color: "#22C55E",
-                }}
-              >
-                {secondaryButtonText}
-              </a>
-            </div>
+            {/* Hero Buttons with Modal */}
+            <HeroButtons
+              primaryButtonText={primaryButtonText}
+              secondaryButtonText={secondaryButtonText}
+              secondaryButtonHref={secondaryButtonHref}
+            />
 
             {/* Trial Info */}
             <p
@@ -194,8 +156,8 @@ export default function Hero({
               style={{
                 fontFamily: "Inter",
                 fontWeight: "400",
-                lineHeight: "1em",
-                color: "#71717A",
+                lineHeight: "1.2em",
+                color: "#A1A1AA",
               }}
             >
               {trialInfoText}
